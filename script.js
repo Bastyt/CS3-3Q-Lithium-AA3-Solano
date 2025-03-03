@@ -1,7 +1,7 @@
-function messageEncoder (){
- let messageToVerify = prompt('Enter the message: '); 
- if (messageToVerify.indexOf("aI") >= 0 || messageToVerify.indexOf("Ai") >= 0){ document.getElementById('result').innerHTML = 'The message "' + messageToVerify + '" is fake!'; } 
- else if (messageToVerify.indexOf("FR") >= 0 ){ document.getElementById('result').innerHTML = 'The message "' + messageToVerify + '" is legitimate!'; } 
- else if (messageToVerify.indexOf("FR") >= 0 && messageToVerify.indexOf("AI") >= 0){ document.getElementById('result').innerHTML = 'The message "' + messageToVerify + '" is legitimate!'; } 
- else if (messageToVerify.indexOf("AI") >= 0){ document.getElementById('result').innerHTML = 'The message "' + messageToVerify + '" is fake!'; } 
- else { document.getElementById('result').innerHTML = 'The message "' + messageToVerify + '" is not yet encoded!'; } }
+function messageFunction (){
+ let messageVerify = prompt('Enter the message: '); 
+  if (messageVerify.indexOf("aI") >= 0 || messageVerify.indexOf("Ai") >= 0){ document.getElementById('result').innerHTML = 'The message "' + messageVerify + '" is fake!'; } 
+   else if (messageVerify.indexOf("FR") >= 0 ){ document.getElementById('result').innerHTML = 'The message "' + messageVerify + '" is legitimate!'; } 
+   else if (messageVerify.indexOf("FR") >= 0 && messageVerify.indexOf("AI") >= 0){ document.getElementById('result').innerHTML = 'The message "' + messageVerify + '" is legitimate!'; } 
+   else if (messageVerify.indexOf("AI") >= 0){ document.getElementById('result').innerHTML = 'The message "' + messageVerify + '" is fake!'; } 
+    else { document.getElementById('result').innerHTML = 'The message "' + messageVerify + '" is not yet encoded!'; } }
